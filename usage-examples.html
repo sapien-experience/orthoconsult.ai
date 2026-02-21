@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrthoAI Style Guide - Usage Examples</title>
+    <link rel="stylesheet" href="orthoai-components.css">
+    <style>
+        /* Additional demo styles */
+        .demo-section {
+            margin: 4rem 0;
+            padding: 2rem;
+            border: 2px dashed #e2e8f0;
+            border-radius: 1rem;
+        }
+        .demo-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+        .theme-switcher {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            z-index: 1000;
+        }
+        .theme-switcher select {
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            border: 1px solid #d1d5db;
+        }
+    </style>
+</head>
+<body>
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <select id="themeSelect">
+            <option value="current">Blue Theme</option>
+            <option value="purple">Purple Theme</option>
+            <option value="dark-purple">Dark Purple Theme</option>
+        </select>
+    </div>
+
+    <!-- Main Content -->
+    <div class="ortho-page">
+        <!-- Hero Section Example -->
+        <section class="ortho-section-hero">
+            <div class="ortho-container">
+                <h1 class="ortho-title-xl mb-8">
+                    OrthoAI Style Guide
+                </h1>
+                <p class="ortho-text-xl mb-10">
+                    Beautiful, production-ready components using the OrthoAI design system.
+                </p>
+                <button class="ortho-btn ortho-btn-primary">
+                    Get Started
+                </button>
+            </div>
+        </section>
+
+        <!-- Trust Panel Example -->
+        <section class="ortho-section">
+            <div class="ortho-container">
+                <div class="demo-section">
+                    <h2 class="demo-title">Trust Panel Component</h2>
+                    <div class="ortho-trust-panel">
+                        <div style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
+                            <div class="ortho-trust-number">
+                                6,300+
+                            </div>
+                            <div class="ortho-text-lg ortho-text-center">
+                                modeled practice-years from simulation experts trusted by Google, Align Technologies, and American Express.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards Example -->
+        <section class="ortho-section-value">
+            <div class="ortho-container">
+                <div class="demo-section">
+                    <h2 class="demo-title">Card Components</h2>
+                    <div class="ortho-grid-3">
+                        <div class="ortho-card ortho-text-center">
+                            <div class="ortho-card-icon ortho-card-icon-1">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                </svg>
+                            </div>
+                            <h3 class="ortho-title-md mb-4">
+                                Feature One
+                            </h3>
+                            <p class="ortho-text-lg">
+                                Description of your first amazing feature that helps users achieve their goals.
+                            </p>
+                        </div>
+
+                        <div class="ortho-card ortho-text-center">
+                            <div class="ortho-card-icon ortho-card-icon-2">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="ortho-title-md mb-4">
+                                Feature Two
+                            </h3>
+                            <p class="ortho-text-lg">
+                                Description of your second amazing feature with intelligent capabilities.
+                            </p>
+                        </div>
+
+                        <div class="ortho-card ortho-text-center">
+                            <div class="ortho-card-icon ortho-card-icon-3">
+                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="ortho-title-md mb-4">
+                                Feature Three
+                            </h3>
+                            <p class="ortho-text-lg">
+                                Description of your third feature that provides excellent communication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buttons Example -->
+        <section class="ortho-section">
+            <div class="ortho-container">
+                <div class="demo-section">
+                    <h2 class="demo-title">Button Components</h2>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center;">
+                        <button class="ortho-btn ortho-btn-primary">
+                            Primary Button
+                        </button>
+                        <button class="ortho-btn ortho-btn-secondary">
+                            Secondary Button
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Example -->
+        <section class="ortho-section-signup">
+            <div class="ortho-container-sm">
+                <h2 class="ortho-title-lg mb-6">
+                    Ready to transform your business?
+                </h2>
+                <p class="ortho-text-lg mb-8">
+                    Join thousands of satisfied customers who trust our platform.
+                </p>
+                <form style="display: flex; flex-direction: column; gap: 1rem; max-width: 400px; margin: 0 auto;">
+                    <input type="email" class="ortho-input" placeholder="Enter your email" required>
+                    <button type="submit" class="ortho-btn ortho-btn-primary">
+                        Get Started Today
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Typography Example -->
+        <section class="ortho-section">
+            <div class="ortho-container">
+                <div class="demo-section">
+                    <h2 class="demo-title">Typography Scale</h2>
+                    <div style="space-y: 2rem;">
+                        <h1 class="ortho-title-xl">Extra Large Title (3.75rem)</h1>
+                        <h2 class="ortho-title-lg">Large Title (3rem)</h2>
+                        <h3 class="ortho-title-md">Medium Title (2.25rem)</h3>
+                        <p class="ortho-text-xl">Extra large body text (1.25rem)</p>
+                        <p class="ortho-text-lg">Large body text (1.125rem)</p>
+                        <p>Regular body text (1rem)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Theme switcher functionality
+        const themeSelect = document.getElementById('themeSelect');
+        const htmlElement = document.documentElement;
+
+        themeSelect.addEventListener('change', (e) => {
+            const theme = e.target.value;
+            htmlElement.setAttribute('data-theme', theme);
+        });
+
+        // Set initial theme
+        htmlElement.setAttribute('data-theme', 'current');
+    </script>
+</body>
+</html>
