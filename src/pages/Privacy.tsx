@@ -137,6 +137,7 @@ function Privacy() {
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li>DigitalOcean – cloud hosting</li>
             <li>Apideck – integration and OAuth infrastructure</li>
+            <li>Sikka – orthodontic practice data and analytics</li>
             <li>Payment processors (if applicable)</li>
             <li>Security and monitoring providers</li>
           </ul>
