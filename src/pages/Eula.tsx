@@ -184,7 +184,7 @@ function Eula() {
               href="mailto:privacy@orthoaiconsult.com"
               className="text-blue-600 hover:text-blue-700 hover:underline"
             >
-              privacy@orthoaiconsult.com
+              darren@orthoaiconsult.com
             </a>
           </p>
         </section>
