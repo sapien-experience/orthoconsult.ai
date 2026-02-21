@@ -13,6 +13,7 @@ function Layout() {
           <Link to="/privacy" className="hover:text-slate-900 transition-colors">Privacy</Link>
           <Link to="/terms" className="hover:text-slate-900 transition-colors">Terms</Link>
           <Link to="/security" className="hover:text-slate-900 transition-colors">Security</Link>
+          <Link to="/eula" className="hover:text-slate-900 transition-colors">EULA</Link>
         </div>
       </footer>
     </div>
