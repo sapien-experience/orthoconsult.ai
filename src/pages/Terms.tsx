@@ -111,7 +111,7 @@ function Terms() {
         <section className="mb-10">
           <h2 className="text-xl font-semibold mb-4 text-slate-900">10. Governing Law</h2>
           <p>
-            This Agreement is governed by the laws of [Insert State], without regard to conflict-of-law principles.
+            This Agreement is governed by the laws of Delaware, without regard to conflict-of-law principles.
           </p>
         </section>
       </div>
